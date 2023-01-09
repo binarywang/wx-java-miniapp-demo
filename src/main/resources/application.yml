@@ -1,0 +1,18 @@
+wx:
+    miniapp:
+        aesKey: '@aesKey'
+        appid: appId
+        config-storage:
+            http-client-type: HttpClient
+            http-proxy-host: ''
+            http-proxy-password: ''
+            http-proxy-port: ''
+            http-proxy-username: ''
+            key-prefix: wa
+            redis:
+                host: 127.0.0.1
+                port: 6379
+            type: RedisTemplate
+        msgDataFormat: '@msgDataFormat'
+        secret: '@secret'
+        token: '@token'
